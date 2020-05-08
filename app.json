@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/change/change",
+    "pages/history/history"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1c1b21",
+    "navigationBarTitleText": "随身译",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#333"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "position": "bottom",
+    "color": "#595959",
+    "selectedColor": "#1c1b21",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "assets/images/translation.png",
+        "selectedIconPath": "assets/images/translation2.png",
+        "text": "翻译"
+      },
+      {
+        "pagePath": "pages/history/history",
+        "iconPath": "assets/images/history.png",
+        "selectedIconPath": "assets/images/history2.png",
+        "text": "历史"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

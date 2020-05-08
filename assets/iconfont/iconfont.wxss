@@ -1,0 +1,39 @@
+@font-face {font-family: "iconfont";
+  src: url('//at.alicdn.com/t/font_1797944_jtugaxm04rn.ttf?t=1588613458743') format('truetype')
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-duihao:before {
+  content: "\e633";
+}
+
+.icon-right:before {
+  content: "\e61c";
+}
+
+.icon-jiantou:before {
+  content: "\e60d";
+}
+
+.icon-chahao:before {
+  content: "\e668";
+}
+
+.icon-lishijilu:before {
+  content: "\e718";
+}
+
+.icon-fanyi:before {
+  content: "\e60e";
+}
+
+.icon-down:before {
+  content: "\e613";
+}
