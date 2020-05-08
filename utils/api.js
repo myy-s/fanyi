@@ -18,23 +18,19 @@ function translate(q, { from = 'auto', to = 'auto' } = { from: 'auto', to: 'auto
         sign
       },
       success(res) {
-        console.log('success321',res);
-        
         if (res.data && res.data.trans_result) {
           resolve(res.data)
         } else {
-          reject({ status: 'error', msg: '翻译失败1' })
+          reject({ status: 'error', msg: '翻译失败' })
           wx.showToast({
-            title: '翻译失败2',
+            title: '翻译失败',
             icon: 'none',
             duration: 3000
           })
         }
       },
       fail() {
-        console.log('fail321');
-
-        reject({ status: 'error', msg: '翻译失败3' })
+        reject({ status: 'error', msg: '翻译失败' })
         wx.showToast({
           title: '网络异常',
           icon: 'none',
